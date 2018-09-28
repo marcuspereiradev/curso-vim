@@ -33,7 +33,7 @@ body {
 	width: 80%;
 	border-radius: 5px;
 	position: absolute;
-    margin: 20px;
+	margin: 20px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -79,13 +79,29 @@ body {
 footer {
 	background-color: #333;
 	color: #FFF;
-	padding: 20px;
+	padding: 0 20px;
 	margin-top: 10px;
-    font-size: 12px;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer div {
+	text-align: right;
 }
 
 footer address:last-child {
 	margin-bottom: 0;
+}
+
+.panel-group .panel {
+	display: inline-block;
+	margin: 10px;
+}
+
+.panel-group .panel .panel-heading {
+	font-size: 16px;
+	font-weight: 800;
 }
 
 @media(min-width: 768px) {
